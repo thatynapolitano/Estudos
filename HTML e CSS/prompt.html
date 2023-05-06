@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script> 
+
+var pulalinha = function(){
+document.write("<br>")
+}
+
+var mostra = function(frase) { 
+document.write(frase)
+pulalinha()
+pulalinha()
+}
+
+
+var nome = prompt("Bom dia! Qual o seu nome?")
+mostra("Bem vindo, " + nome)
+
+var idade = prompt("Qual a sua idade?") 
+mostra("Sua idade é: " + idade + " anos")
+
+var dias = idade * 365
+mostra("Você já viveu " + dias + " dias de vida!")
+
+var frequenciacardiaca = (220 - idade)
+mostra("Sua frequencia cardiaca eh: " + frequenciacardiaca + " bpm")
+
+</script>
