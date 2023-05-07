@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Formulário do Clã dos Sorvetinhos </h1>
+
+<h2> Sobre </h2>
+
+<p> Este formulário é para preenchimento de informações de membros do <strong>Clã dos Sorvetinhos</strong></p>
+
+<h2> Objetivo </h2>
+<p>O nosso único objetivo é conhecer mais sobre a nossa comunidade. Sinta-se a vontade em responder os itens do formulário abaixo e preencher as suas informações. </p>
+
+<h2>Formulário:</h2>
+
+<form action=""> 
+
+<label for="text"> Nome completo: </label>
+<input type="text"
+required
+placeholder="Digite seu nome completo"
+pattern="[a-zA-Z\s]*"
+size="40"
+>
+
+
+<br> <p>
+<label for="email"> E-mail:</label>
+<input id="email" type="email"
+required
+placeholder="Digite seu e-mail"
+pattern="+@"
+size="25"
+> </p>
+
+<p>
+<label for="site">URL:</label>
+<input id="site" type="url"
+placeholder="http://example.com.br"
+pattern=".*\.com\.br.*"
+tittle="Somente dominios .com.br serao aceitos"
+required
+>
+
+<p>
+<input type="file" accept="image/*">
+
+<p>
+<datalist id="colorsdata">
+    <option>"0000ff"></option> </datalist>
+    <input type="color" list="colorsdata">
+</p>
+
+<p>
+<label for="subscribe"> Receber notificações</label>
+<input type="checkbox" name="subscribe" id="subscribe"
+checked>
+</p>
+
+<fieldset>
+    <legend> Bora tomar um café?</legend>
+
+    <label for="yep">sim</label>
+    <input type="radio" id="yep" name="coffee" value="yes">
+    
+    <label for="nono">não</label>
+    <input checked type="radio" id="nono" name="coffee">
+
+</fieldset>
+<p>
+<textarea></textarea> 
+</p>
+
+<p>
+<button type="submit"> Enviar </button> </p> </br>
+</form> 
+
+</body>
+</html>
