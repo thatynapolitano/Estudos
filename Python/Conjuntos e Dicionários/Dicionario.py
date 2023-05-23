@@ -12,9 +12,13 @@ jogo = {"Nome": "Super Mario",
 print(jogo["Nome"]) #Aqui posso acessar a chave específica do Nome do Jogo.
 print(jogo)
 
-#E se eu quiser adicionar mais uma chave com valor ao meu jogo. No caso a chave "gênero" com valor "aventura". 
+#E se eu quiser adicionar mais 1 chave com valor ao meu jogo. No caso a chave "gênero" com valor "aventura". 
 
 jogo["Genero"] = "Aventura"
+print(jogo)
+
+#Se quiser atualizar chaves e valores já existentes 
+jogo.update({"Ano": 1991, "Genero":"Plataforma"})
 print(jogo)
 
 #Retorna apenas as chaves: 
@@ -23,3 +27,4 @@ jogo.keys()
 jogo.values()
 #Devolve uma lista com tuplas (chave, valor)
 jogo.items() 
+
