@@ -15,3 +15,5 @@ for i in range(tam):
   dicionario[chaves[i]] = valores[i]
 
 print(dicionario)
+
+
