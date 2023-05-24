@@ -28,3 +28,4 @@ jogo.values()
 #Devolve uma lista com tuplas (chave, valor)
 jogo.items() 
 
+

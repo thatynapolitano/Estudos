@@ -7,3 +7,5 @@ jogo3 = {'Nome':'Pokemon Yellow','videogame':'GameBoy','Ano':1999}
 listaJogos = [jogo1,jogo2,jogo3]
 print(listaJogos[1]["Nome"]) # Vai imprimir Mario Kart 64.
 
+#Para acessar o último elemento de uma lista 
+print(listaJogos[-1])

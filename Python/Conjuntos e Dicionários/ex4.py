@@ -16,8 +16,14 @@ print(listaCidades)
 
 #Colocando em ordem crescente por latitude e longitude.
 
-listaSulNorte = sorted(listaCidades,key=lambda dicionario:dicionario["latitude"])  # A função sorted ordena a minha listaCidades. Porém o sorted não ordena da forma específica que queremos por si só. Por isso adicionamos key=lambda dicionario:dicionario["latitude"]. Lambda é uma forma de criar uma função de uma linha no formato entrada e saída. Uma função dicionário que sai a latitude do dicionário -> Ou seja função com entrada e saída. A entrada é dicionario e a saída é latitude de dicionário. Por isso dicionario:dicionario["latitude"]. 
+listaSulNorte = sorted(listaCidades,key=lambda dicionario:dicionario["latitude"])  # A função sorted ordena a minha listaCidades se tivessemos apenas uma informação. Porém o sorted não ordena da forma específica o que queremos por si só, principalmente quando temos várias informações diferentes. Por isso adicionamos key=lambda dicionario:dicionario["latitude"]. Lambda é uma forma de criar uma função de uma linha no formato entrada e saída. Uma função dicionário que sai a latitude do dicionário -> Ou seja função com entrada e saída. A entrada é dicionario e a saída é latitude de dicionário. Por isso dicionario:dicionario["latitude"]. 
 
 listaOesteLeste = sorted(listaCidades,key=lambda dicionario:dicionario["longitude"]) # A função sorted ordena a minha list
 
+norte = listaSulNorte[-1]['Nome']
+sul = listaSulNorte[0]['Nome']
+leste =listaOesteLeste[-1]['Nome']
+oeste = listaOesteLeste[0]['Nome']
+
+print()
 
