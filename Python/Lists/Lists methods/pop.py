@@ -8,3 +8,5 @@ linguagens.pop() # c#
 linguagens.pop() # java
 linguagens.pop() # c 
 linguagens.pop() # python
+
+print(linguagens)
