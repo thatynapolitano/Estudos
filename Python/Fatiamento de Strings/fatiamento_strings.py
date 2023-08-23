@@ -13,3 +13,26 @@ s1 = 'Super Mario'
 
 print (s1[0:11:3]) #0-10 pulando de 3 em 3
 print (s1[::2]) # inicio ao fim pulando de 2 em 2
+
+#Outro exemplo de fatiamento 
+
+nome = "Thatiana Napolitano"
+
+nome[0]
+print(nome[0]) 
+
+nome[:8]
+print(nome[:8])
+
+nome[9:]
+print(nome[9:])
+
+nome[10:18]
+print(nome[10:18])
+
+
+nome[10:18:2]   # o terceiro valor é o step. 
+print(nome[10:18:2])
+
+nome[:]
+print(nome[:])

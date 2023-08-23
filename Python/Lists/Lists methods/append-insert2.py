@@ -14,5 +14,5 @@ for i in range(5):
 
 print (my_list)
 
-#Esse é o métido de usar o método insert.
+#Esse é o motivo de usar o método insert.
 
