@@ -1,3 +1,7 @@
+# Função é um bloco de código identificado po um nome e pode receber uma lista de parametros, esses parametros podem ou não ter valores padrões. Usar funções torna o código mais legível e possibilita o reaproveitamento de código. Programas baseado em funções, é o mesmo que dizer que estamos programando de maneira estruturada.
+
+
+
 # Forma 1 
 print('|',"-"*18,'|')
 print('|',"-"*18,'|')
