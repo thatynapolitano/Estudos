@@ -11,3 +11,5 @@ raio = float(input('Digite o raio do circulo: '))
 area = math.pi * raio**2  
 print(f'A área é: {area:.2f}')  
 
+# Teste 
+
