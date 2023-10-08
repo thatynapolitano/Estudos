@@ -234,3 +234,9 @@ Limitar o número de documentos retornados em uma consulta.
 
 --- 
 ![Alt text](image-14.png)
+
+### JSON 
+
+[JSON Formatter](https://jsonformatter.curiousconcept.com/)
+
+The JSON Formatter was created to help folks with debugging. As JSON data is often output without line breaks to save space, it can be extremely difficult to actually read and make sense of it. This tool hoped to solve the problem by formatting and beautifying the JSON data so that it is easy to read and debug by human beings.
