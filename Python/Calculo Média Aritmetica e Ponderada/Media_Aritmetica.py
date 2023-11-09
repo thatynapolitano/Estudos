@@ -11,7 +11,6 @@ media = (nota1+nota2+nota3)/3
 print('O resultado eh:', media)  
 print(f'O resultado eh: {media:.2f}') # Dessa forma eu defino quantas casas decimais eu quero que mostre o resultado. 
 
-
 # Exercício:  Sua solução deverá realizar o cálculo da média aritmética simples tendo como entrada 4 notas e como saída o conceito: 
 
 # Média acima de 70	Aprovado
