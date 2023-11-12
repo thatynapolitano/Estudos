@@ -6,6 +6,3 @@ for i in range(5):
 print (my_list) 
 
 ## Mesma sequencia de numeros acima, mas em ordem inversa 
-
-=
-
