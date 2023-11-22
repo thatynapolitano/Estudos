@@ -20,14 +20,14 @@ for i in range(50,0,-1): #Vai do 50 ate o 0, indo de -1 em -1
 
 # Vamos supor que eu quisesse terminar o programa quando chegasse no número 37.  Break interrompe o loop.
 
-for i in range(50,0,-1): #Vai do 50 ate o 0, indo de -1 em -1 
+for i in range(50,0,-1): #Vai do 0 até o 50, indo de -1 em -1 
     if i == 37: 
         break
     print(i)
 
 # Para dar espaco entre os numeros na mesma linha 
 
-for i in range(50,0,-1): #Vai do 50 ate o 0, indo de -1 em -1 
+for i in range(50,0,-1): #Vai do 0 até o 50, indo de -1 em -1 
     if i == 37: 
         break
     print(i, end = ' ') # end =   <- é padrão para imprimir um valor de determinada forma, no caso colocamos um espaço. 
