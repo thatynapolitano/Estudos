@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request 
+from flask import Flask, jsonify, request, Response
 
 app = Flask(__name__) # intância o método Flask
 
@@ -42,12 +42,35 @@ def incluir_novo_aluno():
     #neste ponto salvar os dados em um arquivo csv/banco de dados, pois toda vez que eu reinicio a API, eu perco os dados adicionados pelo POST
     return jsonify(dados_alunos)
 
-# alterar aluno 
+# Alterar aluno no banco de dados
 @app.route("/aluno/<int:id>", methods=["PUT"])
 def alterar_aluno(id):
     aluno_alterado = request.get_json()
-    
+    for aluno in dados_alunos:
+        if aluno.get("id") == id:
+            aluno.update(aluno_alterado)
+            print(f"\n\nDEBUG: {aluno}")
+            return jsonify(aluno)
 
+# Deleta aluno no banco de dados
+        
+@app.route("/aluno/<int:id>", methods=["DELETE"])
+def deleta_aluno(id):
+    for aluno in dados_alunos: 
+        if aluno.get("id") == id:
+            dados_alunos.remove(aluno)
+            print(f"\n\nDEBUG: {dados_alunos}")
+            return jsonify(dados_alunos)
+
+
+# Cria csv?
+@app.route('/csv')
+def csv():
+    data = u'1,2,3\n4,5,6\n'
+    bom = u'\ufeff'
+    response = Response(bom + data, content_type='text/csv; charset=utf-16')
+    return response
 
 app.run(debug=True) # inicializa o servidor
+
 
