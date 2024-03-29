@@ -38,7 +38,7 @@ def retorna_aluno(id):
 @app.route("/aluno", methods=["POST"])
 def incluir_novo_aluno():
     novo_aluno = request.get_json()
-    dados_alunos.append(novo_aluno)
+    dados_alunos.append(novo_aluno) # é preciso checar antes do append se os dados que querem adicionar na API estao de acordo com o padrao e formato
     #neste ponto salvar os dados em um arquivo csv/banco de dados, pois toda vez que eu reinicio a API, eu perco os dados adicionados pelo POST
     return jsonify(dados_alunos)
 
@@ -52,7 +52,7 @@ def alterar_aluno(id):
             print(f"\n\nDEBUG: {aluno}")
             return jsonify(aluno)
 
-# Deleta aluno no banco de dados
+# Deleta aluno no banco de dados 
         
 @app.route("/aluno/<int:id>", methods=["DELETE"])
 def deleta_aluno(id):
@@ -63,7 +63,7 @@ def deleta_aluno(id):
             return jsonify(dados_alunos)
 
 
-# Cria csv?
+# Criamos um rota de csv para fazer download de um csv 
 @app.route('/csv')
 def csv():
     data = u'1,2,3\n4,5,6\n'
