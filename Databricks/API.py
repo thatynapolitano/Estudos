@@ -44,3 +44,7 @@ except Exception as e:
 # %%
     
 
+
+    noticias_por_data.to_csv('noticias_por_data.csv', index=False)
+    noticias_por_fonte_autor.to_csv('noticias_por_fonte_autor.csv', index=False)
+    aparicoes_palavras_chave.to_csv('aparicoes_palavras_chave.csv', index=False)
