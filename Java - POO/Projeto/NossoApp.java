@@ -22,6 +22,8 @@ public class NossoApp {
         aluno01.imprimirCurso();
         aluno01.ativo = false;
         aluno01.imprimirAtivo();
+        aluno01.endereco = "Avenida das Américas 3434";
+        aluno01.imprimirEndereço(); 
 
         Aluno aluno02 = new Aluno();
         aluno02.nome = "Paula";
@@ -31,8 +33,8 @@ public class NossoApp {
         aluno02.curso = "Ciência da Computação"; 
         aluno02.imprimirCurso();
         aluno02.ativo = true; 
-        aluno02.imprimirAtivo();
-
-        
+        aluno02.imprimirAtivo();  
+        aluno02.endereco = "Rua das Pitangas, 648";
+        aluno02.imprimirEndereço(); 
     }
 }

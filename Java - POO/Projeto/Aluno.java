@@ -7,6 +7,7 @@ public class Aluno {
     public int matricula; 
     public String curso;
     public Boolean ativo; 
+    public String endereco;
     
     public void imprimirNome() {  // Aqui temos a funcao que dentro de uma classe torna-se seu metodo - funcao = comportamento = metodo
         System.out.println("O nome do aluno é " + nome);
@@ -21,8 +22,10 @@ public class Aluno {
     }
 
     public void imprimirAtivo() {
-        System.out.println(ativo);
+        System.out.println("Status da matrícula: " + ativo);
     }
 
-
+    public void imprimirEndereço() {
+        System.out.println("Endereço: " + endereco);
+    }   
 }
