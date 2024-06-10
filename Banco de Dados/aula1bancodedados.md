@@ -55,7 +55,7 @@ Normalização: Aplicar técnicas de normalização para minimizar a redundânci
     <br> Normalmente são as tabelas 
     <br> Exemplo: Cliente, Produto, Pedido, etc.
 
- ![alt text](image-2.png)   
+ ![alt text](assets/image-2.png)   
 
  Regras para nomes das Entidades 
  - Nome único
@@ -66,7 +66,7 @@ Normalização: Aplicar técnicas de normalização para minimizar a redundânci
  Instância de uma Entidade 
  - São os dados em uma entidade 
 
- ![alt text](image-3.png)
+ ![alt text](assets/image-3.png)
 
  - Atributo: dados a armazenar sobre as entidades. Esses dados irão gerar informações<br>
     <br> Normalmente são as tabelas 
@@ -94,7 +94,7 @@ Consistência: A chave estrangeira deve corresponder a um valor existente na cha
 Integridade Referencial: Ajuda a manter a integridade referencial, garantindo que os relacionamentos entre tabelas permaneçam consistentes.
 Exemplo: Em uma tabela Pedidos, a coluna ClienteID pode ser uma chave estrangeira que referencia a chave primária ClienteID na tabela Clientes, indicando qual cliente fez cada pedido.
 
-![ ](image-4.png)
+![ ](assets/image-4.png)
 
 
 ### <i><span style=color:pink> Resumo </span></i> 
@@ -103,7 +103,7 @@ Exemplo: Em uma tabela Pedidos, a coluna ClienteID pode ser uma chave estrangeir
 <b> Chave Estrangeira: </b> Cria um vínculo entre uma tabela e outra, referenciando a chave primária na tabela relacionada para manter a integridade dos dados.
 
 ### MER: 
- ![alt text](image-6.png)
+ ![alt text](assets/image-6.png)
 
  - Quais as vantagens de um BD relacional? 
 
