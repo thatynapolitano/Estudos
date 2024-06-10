@@ -107,4 +107,16 @@ Exemplo: Em uma tabela Pedidos, a coluna ClienteID pode ser uma chave estrangeir
 
  - Quais as vantagens de um BD relacional? 
 
- 
+Consistência de Dados: Garantem integridade referencial e minimizam redundâncias.
+
+Flexibilidade nas Consultas: Usam SQL para realizar consultas complexas.
+Segurança de Dados: Possuem controle de acesso detalhado e suporte a transações ACID.
+
+Escalabilidade Vertical: Melhoram desempenho com upgrades de hardware.
+Manutenção e Backup Facilitados: Oferecem ferramentas robustas para backup e recuperação.
+
+Integridade Transacional: Garantem que transações sejam concluídas corretamente ou revertidas em caso de falha.
+
+Padronização: Facilita a interoperabilidade e portabilidade entre sistemas.
+
+Comunidade e Suporte: Ampla documentação e suporte comercial disponível.

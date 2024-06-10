@@ -90,7 +90,7 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 ![alt text](/assets/image-16.png)
 
 ![alt text](/assets/image-17.png)
-![alt text](/assets/image-18.png) 
+
 
 ### Um para um (1:1)
 - Chave estrangeira ficará aonde? 
@@ -98,3 +98,14 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 - Poderiam ser dados de uma mesma entidade?
     - Sim!
 
+![alt text](/assets/image-18.png) 
+
+### Um para um (1:n)
+- A chave estrangeira ficará aonde? 
+    - No lado que tem N, no lado que tem muitos
+- Poderiam ser dados de uma mesma entidade?
+    - Não! Irá ter duplicidades e repetição de informações. Teriam muitas conquistas numa mesma entidade.
+
+![alt text](/assets/image-19.png)
+
+![alt text](/assets/image-20.png)
