@@ -30,6 +30,81 @@ Função: O banco de dados contém os dados reais. Ele armazena informações de
 
 Exemplos: As tabelas e registros armazenados em um banco de dados MySQL, os documentos armazenados em um banco de dados MongoDB.
 
-### <i> <span style=color:pink> Resumo da Diferença </span> 
-SGBD: É o software que gerencia e interage com os bancos de dados.
+### <i> <span style=color:pink> Resumo da Diferença </span>  </i> 
+SGBD: É o software que gerencia e interage com os bancos de dados. <br>
 Banco de Dados: É a coleção de dados que é gerenciada pelo SGBD.
+
+### <u>Fases de um Projeto de Banco de Dados - Modelagem de Dados</u> 
+
+1. Planejamento <br>
+<u>Análise de Requisitos</u>: Coletar e analisar os requisitos dos usuários e da aplicação. Isso inclui entender os dados que precisam ser armazenados, como serão acessados, e quaisquer restrições ou requisitos de desempenho. <br> 
+Definição de Objetivos: Estabelecer os objetivos do banco de dados, incluindo metas de desempenho, segurança, e escalabilidade.
+
+2. Análise e Modelagem de Dados <br>
+<u>Modelo Conceitual</u>: Criar um modelo de dados de alto nível que descreve os principais dados e relacionamentos, geralmente usando diagramas entidade-relacionamento (ER). <br>
+<u>Modelo Lógico</u>: Refinar o modelo conceitual em um modelo lógico, que detalha as tabelas, colunas, tipos de dados, e relações. Este modelo é independente do SGBD específico.
+
+3. Projeto Físico <br>
+Escolha do SGBD: Selecionar o Sistema de Gerenciamento de Banco de Dados mais adequado para as necessidades do projeto (por exemplo, MySQL, PostgreSQL, MongoDB). <br>
+<u>Projeto Físico</u>: Converter o modelo lógico em um modelo físico que inclui detalhes específicos do SGBD escolhido, como a definição das tabelas, índices, procedimentos armazenados, triggers, e considerações de desempenho.
+Normalização: Aplicar técnicas de normalização para minimizar a redundância e evitar problemas de inconsistência de dados.
+
+### <u>Modelo de Entidade e Relacionamento (MER)</u> 
+- Entidade: representação abstrata de um objeto do mundo real
+    <br> Queremos armazenar dados sobre elas
+    <br> Normalmente são as tabelas 
+    <br> Exemplo: Cliente, Produto, Pedido, etc.
+
+ ![alt text](image-2.png)   
+
+ Regras para nomes das Entidades 
+ - Nome único
+ - Nome curto 
+ - Sem espaços em branco 
+ - Sem caracteres especiais
+
+ Instância de uma Entidade 
+ - São os dados em uma entidade 
+
+ ![alt text](image-3.png)
+
+ - Atributo: dados a armazenar sobre as entidades. Esses dados irão gerar informações<br>
+    <br> Normalmente são as tabelas 
+    <br> Podem ser ou não ser: <b>Nulos, Obrigatórios, Exclusivos (chaves)</b>
+    <br> - Código, nome, endereço, preço, peso, etc.
+
+## Chave Primária
+Definição: Uma chave primária é um campo (ou conjunto de campos) em uma tabela de banco de dados que identifica de maneira única cada registro dessa tabela.
+
+### Características: 
+Unicidade: Cada valor na chave primária deve ser único.
+
+Não Nulo: Não pode haver valores nulos na chave primária. 
+
+Identificação: É usada para identificar exclusivamente cada registro na tabela.
+
+Exemplo: Em uma tabela Clientes, a coluna ClienteID pode ser a chave primária, garantindo que cada cliente tenha um identificador único.
+
+## Chave Estrangeira
+
+Definição: Uma chave estrangeira é um campo (ou conjunto de campos) em uma tabela que cria um vínculo entre os dados dessa tabela e os dados de outra tabela.
+Características:
+Relacionamento: Estabelece um relacionamento entre duas tabelas.
+Consistência: A chave estrangeira deve corresponder a um valor existente na chave primária da tabela relacionada.
+Integridade Referencial: Ajuda a manter a integridade referencial, garantindo que os relacionamentos entre tabelas permaneçam consistentes.
+Exemplo: Em uma tabela Pedidos, a coluna ClienteID pode ser uma chave estrangeira que referencia a chave primária ClienteID na tabela Clientes, indicando qual cliente fez cada pedido.
+
+![ ](image-4.png)
+
+
+### <i><span style=color:pink> Resumo </span></i> 
+
+<b> Chave Primária: </b> Identifica de maneira única cada registro em uma tabela.
+<b> Chave Estrangeira: </b> Cria um vínculo entre uma tabela e outra, referenciando a chave primária na tabela relacionada para manter a integridade dos dados.
+
+### MER: 
+ ![alt text](image-6.png)
+
+ - Quais as vantagens de um BD relacional? 
+
+ 
