@@ -115,6 +115,10 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
     - Ficara numa entidade
     - Cria-se uma nova entidade intermediaria que se chama <i>Entidade Associativa</i> 
     - O proposito dela e fazer uma associacao entre duas entidades
+- A modelagem só acaba depois que não houver mais relacionamentos n:n
+- Todos os relacionamentos devem ser reduzidos a 1:1 ou 1:n 
 
 ![alt text](assets/image-21.png) 
 ![alt text](assets/image-22.png)
+![alt text](assets/image-23.png)
+![alt text](assets/image-24.png)
