@@ -85,11 +85,11 @@ Quando não existir uma chave primária, é interessante criar uma:
 
 Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente e uma entidade Pedido sera de 1 para Muitos (1-N)  (1-*). 
 
-![alt text](/assets/image-14.png)
-![alt text](/assets/image-15.png)
-![alt text](/assets/image-16.png)
+![alt text](assets/image-14.png)
+![alt text](assets/image-15.png)
+![alt text](assets/image-16.png)
 
-![alt text](/assets/image-17.png)
+![alt text](assets/image-17.png)
 
 
 ### Um para um (1:1)
@@ -98,7 +98,7 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 - Poderiam ser dados de uma mesma entidade?
     - Sim!
 
-![alt text](/assets/image-18.png) 
+![alt text](assets/image-18.png) 
 
 ### Um para um (1:n)
 - A chave estrangeira ficará aonde? 
@@ -106,6 +106,15 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 - Poderiam ser dados de uma mesma entidade?
     - Não! Irá ter duplicidades e repetição de informações. Teriam muitas conquistas numa mesma entidade.
 
-![alt text](/assets/image-19.png)
+![alt text](assets/image-19.png)
 
-![alt text](/assets/image-20.png)
+![alt text](assets/image-20.png)
+
+### Um para um (n:n)
+- A chave estrangeira ficará aonde? 
+    - Ficara numa entidade
+    - Cria-se uma nova entidade intermediaria que se chama <i>Entidade Associativa</i> 
+    - O proposito dela e fazer uma associacao entre duas entidades
+
+![alt text](assets/image-21.png) 
+![alt text](assets/image-22.png)
