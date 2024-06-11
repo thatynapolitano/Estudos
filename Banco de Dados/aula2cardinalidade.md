@@ -14,8 +14,11 @@
 - Função: identificação única de uma instância 
     - Nunca se repete (Sem duplicados)
     - Obrigatório (Sem nulos)
-    - Um ou mais atributos (a chave primária pode ser uma chave composta - pode existir uma concatenação de dados)
+    - Um ou mais atributos (a chave primária pode ser uma chave composta) Uma chave composta em um banco de dados relacional é uma chave primária que é formada por dois ou mais campos (colunas) da tabela. Essa combinação de colunas é utilizada para garantir a unicidade de cada linha na tabela, ou seja, a combinação dos valores nesses campos deve ser única em cada registro.
     - Preferencialmente numérica (desempenho)
+- Chave primária composta (chave composta é sempre chave primária): é uma chave primária que consiste em dois ou mais campos (colunas) em uma tabela de banco de dados relacional. A combinação dos valores nessas colunas deve ser única para cada registro na tabela, garantindo a unicidade de cada linha.
+
+![alt text](assets/image-28.png)
 
     ![alt text](assets/image-8.png) 
 
@@ -122,3 +125,46 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 ![alt text](assets/image-22.png)
 ![alt text](assets/image-23.png)
 ![alt text](assets/image-24.png)
+
+# Modelo Lógico 
+![alt text](assets/image-25.png)
+
+- Relações = tabela / entidades
+- Tuplas = linhas da tabela / registros
+- Tipos dos dados = Dominio
+- Atributos - colunas / campos
+
+![alt text](assets/image-26.png) 
+
+## Diferenças para o modelo conceitual:
+
+- Define o dominio dos atributos
+- Define restrições de integridade
+
+## Integridade 
+![alt text](assets/image-27.png)
+
+### Integridade de chave
+- Cada registro é identificado de forma única
+    - Chave primátia única não nula
+
+### Integridade referencial 
+- Toda chave estrangeira faz referência a um valor válido
+- Esse valor, que é chave primária em outra relação, existe
+- Portanto, não permite excluir registros (Gambiarra! Não façam, viola a integridade)
+
+### Restrição de unicidade
+- Todas as tuplas de uma relação são unicas
+- Pelo menos um dos atributos deve variar de uma tupla para outra
+
+### Restrições de atibutos e padrões
+- NOT NULL: preenchimento obrigatório
+- UNIQUE: impede repetição nas tuplas
+- PRIMARY KEY: chave primária
+    - Sempre é UNIQUE NOT NULL
+- FOREIGN KEY: chave estrangeira
+- CHECK: condicional (regra, ex: regras definidas para cpf. Garantia de receber CPF da forma correta) Ou uma condição booleana (campo de flag).
+- DEFAULT: valor padrão (quando ninguém preencher nada, terá um valor padrão para não existir valor null)
+
+![alt text](assets/image-29.png)
+
