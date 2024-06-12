@@ -1,5 +1,8 @@
 package Projeto;
 
+import Classes.Aluno; // Posso colocar as minhas classes em package diferente aqui então o package será importado
+import Classes.Vendedor;
+
 public class NossoApp {
     public static void main(String[] args) {
 
