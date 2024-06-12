@@ -7,7 +7,7 @@ public class Vendedor {
     public int idade;
 
     public void imprimirNome() {  // Aqui temos a funcao que dentro de uma classe torna-se seu metodo 
-        System.out.println("Meu nome é " + nome + " e tenho " + idade);
+        System.out.println("Meu nome é " + nome + " e tenho " + idade + " anos");
     }
 
     public void sortearIdade() {
