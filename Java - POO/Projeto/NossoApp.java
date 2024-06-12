@@ -27,6 +27,8 @@ public class NossoApp {
         aluno01.imprimirAtivo();
         aluno01.endereco = "Avenida das Américas 3434";
         aluno01.imprimirEndereço(); 
+        aluno01.periodo = 1;
+        aluno01.imprimirPeriodo();
 
         Aluno aluno02 = new Aluno();
         aluno02.nome = "Paula";
@@ -39,5 +41,7 @@ public class NossoApp {
         aluno02.imprimirAtivo();  
         aluno02.endereco = "Rua das Pitangas, 648";
         aluno02.imprimirEndereço(); 
+        aluno02.periodo = 8;
+        aluno02.imprimirPeriodo();
     }
 }
