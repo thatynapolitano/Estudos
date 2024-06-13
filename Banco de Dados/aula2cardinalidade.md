@@ -20,7 +20,7 @@
 
 ![alt text](assets/image-28.png)
 
-    ![alt text](assets/image-8.png) 
+![alt text](assets/image-8.png) 
 
 Repare que o código acima não se repete, é único. Ou seja, a instância "código" é a nossa PK.
 
