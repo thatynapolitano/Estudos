@@ -2,6 +2,8 @@ package Classes;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Aluno {
     public String nome;
     public int matricula; 
@@ -9,9 +11,9 @@ public class Aluno {
     public Boolean ativo; 
     public String endereco;
     public int periodo; 
-    
+
     public void imprimirNome() {  // Aqui temos a funcao que dentro de uma classe torna-se seu metodo - funcao = comportamento = metodo
-        System.out.println("O nome do aluno é " + nome);
+        System.out.println("O nome do aluno é " + nome); 
     }
 
     public void imprimirMatricula() {  
