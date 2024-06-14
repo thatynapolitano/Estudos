@@ -1,9 +1,5 @@
 package Classes;
 
-import java.util.Random;
-
-import javax.swing.JOptionPane;
-
 public class Aluno {
     public String nome;
     public int matricula; 

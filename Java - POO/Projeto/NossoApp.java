@@ -8,12 +8,11 @@ import Classes.Vendedor;
 public class NossoApp {
     public static void main(String[] args) {
 
-        String texto = JOptionPane.showInputDialog(
-        null, "Digite o nome seu nome: ");
-        JOptionPane.showMessageDialog(null, texto);
+        String texto = JOptionPane.showInputDialog("Digite o nome seu nome: ");
+        JOptionPane.showMessageDialog(null, texto, "Teste da Aula 04", JOptionPane.QUESTION_MESSAGE); 
         System.out.println(texto);
 
-        /* 
+        
         Vendedor vendedor01 = new Vendedor();
         vendedor01.nome = "Arthur";
         vendedor01.sortearIdade();
@@ -52,5 +51,5 @@ public class NossoApp {
         aluno02.periodo = 8;
         aluno02.imprimirPeriodo();
     }
-         */
-} } 
+        
+} 
