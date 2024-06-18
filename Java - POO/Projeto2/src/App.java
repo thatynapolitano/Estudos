@@ -1,5 +1,7 @@
 package Projeto2.src;
 
+import java.text.NumberFormat;
+import java.util.Locale;
 import javax.swing.JOptionPane;
 
 import Classes.Vendedor;
@@ -11,6 +13,8 @@ public class App {
         meuPrimeiroCarro.modelo = "Nissan Kicks";
         meuPrimeiroCarro.marca = "Nissan"; 
         meuPrimeiroCarro.ano = 2018;
+        meuPrimeiroCarro.preco = 120.000f;
+
         
         Carro segundoCarro = new Carro();
         segundoCarro.modelo = "Ecosport";
@@ -22,6 +26,10 @@ public class App {
         terceiroCarro.marca = "Fusca";
         terceiroCarro.ano = 1970;
 
-        JOptionPane.showMessageDialog(null, meuPrimeiroCarro.modelo);
+        Locale locale = new Locale("pt", "BR"); 
+        NumberFormat formatadorDeNumeros = NumberFormat.getCurrencyInstance(locale);
+        String precoFormatado = formatadorDeNumeros.format(meuPrimeiroCarro.preco);
+
+        JOptionPane.showMessageDialog(null, precoFormatado); // Só aceita 1 argumento além do null.
     }
 }
