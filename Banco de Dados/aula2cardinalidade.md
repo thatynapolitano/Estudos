@@ -6,6 +6,22 @@
 - Modelo lógico de dados
 - Restrições de integridade
 
+
+## Entidade associativa
+Exemplo:
+Contexto: Imagine um sistema de gestão escolar que precisa rastrear quais cursos os estudantes estão matriculados e detalhes adicionais dessa matrícula.
+
+Entidades Primárias: "Estudante" e "Curso".
+Entidade Associativa: "Matrícula".
+Descrição:
+
+Estudante tem atributos como ID do Estudante, Nome, Data de Nascimento.
+Curso tem atributos como ID do Curso, Nome do Curso, Créditos.
+Entidade Associativa "Matrícula":
+
+Atributos próprios: Data de Matrícula, Nota Final.
+Chaves Estrangeiras: ID do Estudante (referenciando Estudante), ID do Curso (referenciando Curso).
+
 ## Instância de Entidade
 É o dado que vai preencher a tabela. É o dado que estamos armazenando. 
 

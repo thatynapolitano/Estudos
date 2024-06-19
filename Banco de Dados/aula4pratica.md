@@ -1,4 +1,4 @@
-### Objetivo da aula 
+# Objetivo da aula 
 - Relembrar e aplicas a criação de um modelo conceitual 
 - Relembrar e aplicar o processo de normalização e da criação do modelo lógico a partir do conceitual 
 - Conhecer o modelo físico 
@@ -6,13 +6,13 @@
 
 ![alt text](assets/image-30.png)
 
-- Entidades 
-    - Representam coisas do mundo real
-    - Dados apenas sobre si mesmas 
+## Entidades 
+- Representam coisas do mundo real
+- Dados apenas sobre si mesmas 
 
-- Relacionamentos
-    - Relação entre as coisas
-    - Dados dessa relação entre as entidades 
+## Relacionamentos
+- Relação entre as coisas
+- Dados dessa relação entre as entidades 
 
 ![alt text](assets/image-31.png) 
 
@@ -31,7 +31,7 @@
 - Remover campos de "total" e outros calculos
 - Realocar atributos em novas relações quando eles não dependem só da chave primária
 
-### Modelo Físico 
+## Modelo Físico 
 - Implementação 
     - Varia (um pouco) conforme o SGBD
         - Arquivo físico

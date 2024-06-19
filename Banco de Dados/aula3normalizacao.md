@@ -1,3 +1,5 @@
+# Normalização
+
 ## 1 Forma Normal 
 
 - Definição: todos os domínios básicos apresentam valores atômicos, ou seja, não armazenam grupos repetitivos. 
