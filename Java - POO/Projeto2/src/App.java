@@ -8,10 +8,10 @@ public class App {
     public static void main(String[] args) {
 
         Carro meuPrimeiroCarro = new Carro();
-        meuPrimeiroCarro.modelo = "Nissan Kicks";
-        meuPrimeiroCarro.marca = "Nissan"; 
+        meuPrimeiroCarro.modelo = "Nissan Kicks"; // para pedir para o usuario colocar o valor depois do = colocar: JOptionPane.showInputDialog("Digite o modelo do carro: "); 
+        meuPrimeiroCarro.marca = "Nissan"; // JOptionPane.showInputDialog("Digite a marca do carro: ");
         meuPrimeiroCarro.ano = 2018;
-        meuPrimeiroCarro.preco = 120.000f;
+        meuPrimeiroCarro.preco = 120.000f; // Float.parseFloat(JOptionPane.showInputDialog("Digite o preço do carro: ")
         String apresentacao01 = meuPrimeiroCarro.modelo + " " + meuPrimeiroCarro.preco;
         
         Carro segundoCarro = new Carro();
@@ -38,7 +38,7 @@ public class App {
             String saida = arrayDeCarros[i].modelo + " R$" + arrayDeCarros[i].preco;
 
             JOptionPane.showMessageDialog(null, saida);
-        }
+        }S
 
         // Para formatar o preço do carro para R$ 
         Locale locale = new Locale("pt", "BR"); 
