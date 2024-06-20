@@ -1,0 +1,1 @@
+ALTER TABLE acaoespecifica ALTER COLUMN tempo_minutos DATE; 

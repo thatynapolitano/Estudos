@@ -64,4 +64,12 @@ CREATE nomeTable ( <br>
 ); 
 
 ![alt text](assets/image-39.png)
+![alt text](assets/image-40.png)
+![alt text](assets/image-41.png)
+![alt text](assets/image-42.png) 
+![alt text](assets/image-43.png) 
+![alt text](assets/image-44.png)
+![alt text](assets/image-45.png) 
+![alt text](assets/image-46.png) 
+![alt text](assets/image-47.png)
 
