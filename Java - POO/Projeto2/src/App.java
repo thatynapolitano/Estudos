@@ -38,7 +38,7 @@ public class App {
             String saida = arrayDeCarros[i].modelo + " R$" + arrayDeCarros[i].preco;
 
             JOptionPane.showMessageDialog(null, saida);
-        }S
+        }
 
         // Para formatar o preço do carro para R$ 
         Locale locale = new Locale("pt", "BR"); 
