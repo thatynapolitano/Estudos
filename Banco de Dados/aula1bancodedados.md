@@ -55,6 +55,8 @@ Normalização: Aplicar técnicas de normalização para minimizar a redundânci
     <br> Normalmente são as tabelas 
     <br> Exemplo: Cliente, Produto, Pedido, etc.
 
+https://erdplus.com/ 
+
  ![alt text](assets/image-2.png)   
 
  Regras para nomes das Entidades 
