@@ -12,13 +12,19 @@ public class App {
 
         // System.out.println(arrayDeInteiros[1]);
 
+        // Outra forma de construtor 
         Comida x = new Comida();
         x.nome = "Arroz";
         x.regiao = "Brasil";
-        x.preco = 7.5f; 
+        x.preco = 7.5f;  
         
-        Comida[] arrayComidas = {new Comida(), new Comida()};
-
+        // Outra forma de construtor 
+        Comida[] arrayComidas = {
+            new Comida ("Dolly Guaraná", "Brasil", 20f),
+            new Comida ("Farofa", "Colombia", 10f)
+        };
+    
+        // Para adicionar informações no construtor 
         arrayComidas[0].nome = "Dolly Guaraná";
         arrayComidas[0].regiao = "Brasil";
         arrayComidas[0].preco = 20f;
