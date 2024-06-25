@@ -184,3 +184,4 @@ Um cliente pode fazer varios pedidos, entao a relacao entre uma entidade Cliente
 
 ![alt text](assets/image-29.png)
 
+Servidor MySQL Comunnity Server: https://dev.mysql.com/downloads/mysql/
