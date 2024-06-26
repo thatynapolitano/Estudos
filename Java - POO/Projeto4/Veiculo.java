@@ -16,6 +16,10 @@ public class Veiculo {
         this.valor = valor;
     }
 
+    public Veiculo() {
+        
+    }
+
     public String getDados() {
         String dados = modelo + ", " + fabricante +
         ", " + ano + ", no valor de " + valor;
