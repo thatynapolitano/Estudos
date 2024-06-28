@@ -7,6 +7,7 @@ public class Veiculo {
     public String fabricante;
     public int ano;
     public int valor;
+    public int quantidadedeRodas; 
 
     public Veiculo(String modelo, String fabricante, int ano, int valor) {
         super(); // Invoca o método construtor da classe pai dessa classe que estamos escrevendo
