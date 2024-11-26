@@ -2,7 +2,21 @@
 # Data Warehouse
 ![alt text](/assets/image-68.png) 
 
+Um data warehouse, ou armazém de dados, é um sistema de armazenamento de dados que reúne e organiza grandes quantidades de dados de diversas fontes. Os dados podem ser estruturados, como tabelas de banco de dados e planilhas do Excel, ou semiestruturados, como páginas da Web e arquivos XML. <p>
+
+Os data warehouses são utilizados para: Gerar relatórios e análises, Tomar decisões de negócios informadas, Monitorar a performance dos negócios, Extrair insights dos dados. 
+Os data warehouses podem consolidar dados de várias fontes, como transações em ponto de venda, gestão de relacionamento e automação de marketing. Eles são projetados para oferecer uma visão de longo prazo dos dados, permitindo a análise de mudanças ao longo do tempo. <p>
+
+Algumas vantagens dos data warehouses são:
+- Permitir a análise de grandes quantidades de dados
+- Criar consistência entre dados de fontes diferentes
+- Realizar consultas rapidamente
+- Fornecer uma taxa de transferência de dados elevada 
+
 ## OLAP
+
+- Termo usado para descrever a análise de dados complexos do Data Warehouse.
+- As ferramentas OLAP utilizam computação distribuída para análises que exigem mais armazenamento e poder de processamento do que pode estar localizado um desktop individual.
 
 OLAP é a sigla para Processamento Analítico Online, uma tecnologia que organiza e analisa grandes bancos de dados empresariais: 
 
@@ -30,3 +44,11 @@ Classificação: A IA pode organizar os dados em grupos, como separar frutas em 
 Previsão: Com base no que aconteceu no passado, a IA pode dizer o que provavelmente vai acontecer no futuro, como prever se vai chover ou fazer sol.
 Detecção de padrões: A IA pode descobrir coisas escondidas, como encontrar clientes que compram sempre no mesmo dia do mês.
 Os algoritmos de IA, como aprendizado de máquina (machine learning), tornam a mineração de dados mais rápida, precisa e eficiente, ajudando empresas e pesquisadores a tomar decisões melhores.
+
+## Modelagem de Dados para Data Warehouse 
+
+![alt text](/assets/image-69.png) 
+
+## Projeto de Data Warehouse
+
+![alt text](/assets/image-70.png)
