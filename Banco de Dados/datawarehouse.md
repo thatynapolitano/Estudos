@@ -52,3 +52,13 @@ Os algoritmos de IA, como aprendizado de máquina (machine learning), tornam a m
 ## Projeto de Data Warehouse
 
 ![alt text](/assets/image-70.png)
+
+- Os Data Warehouses existem para facilitar as consultas complexas. 
+- Com o uso intenso de dados frequentes, precisam oferecer suporte à consulta com mais eficiência do que os Bancos de Dados transacionais.
+- O componente de acesso ao Data Warehouse tem suporte para:
+    - Funcionalidade de planilha avançada; 
+    - Processamento de consulta eficiente; 
+    - Consultas estruturadas;
+    - Consultas ocasionais;
+    - Mineração de dados;
+    - Visões materializadas. 
