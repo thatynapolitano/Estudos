@@ -29,3 +29,21 @@ Alguns dos seus principais elementos:
 | Data - Hora    | Timestamp |
 | Vazio/Nulo   | null |
 
+Outras estruturas importantes: 
+
+- Chaves primárias (Primary Key) e referenciais (Foreign Key)
+    - PK, FK - garantem integridade e relacionamento consistente entre as tabelas
+    - Servem como uma documentação também
+    - Exemplos: CPF, CNPJ, ID de cliente - PKs. Colocar um ID de cliente válido no pédido - FK. 
+
+- Constraints
+    -No SQL, uma constraint é uma regra que define o tipo e a quantidade de dados que podem ser inseridos em uma tabela. 
+    - Assim como PKs e FKs, servem para garantir integridade
+    - Não são mais muito utilizadas pois acabam onerando o SGBD
+    - A mais comum é a NOT NULL
+
+- Sequências
+    - Servem para garantir que informações únicas sejam criadas, com continuidade e unicidade
+    - Normalmente são identificadores internos das aplicações 
+
+    
